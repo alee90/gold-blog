@@ -1,0 +1,21 @@
+body{
+	text-align: center;
+	background-color: papayawhip;
+	padding-left: 20em;
+	padding-right: 20em;
+
+}
+
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+li{
+	margin-bottom: 2em;
+}
+
+button{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
