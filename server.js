@@ -38,8 +38,8 @@ app.use('/users', users);
 // var blogs = require('./controllers/blogs.js');
 // app.use('/blogs', blogs);
 
-// var seed = require("./controllers/seed.js");
-// app.use("/seed", seed);
+var seed = require("./controllers/seed.js");
+app.use("/seed", seed);
 
 //hello
 
