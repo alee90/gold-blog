@@ -167,6 +167,7 @@ $(document).ready(function(){
 		      	data: $userForm.serialize(),
 			}).done(function(data){
 				console.log('!==== CREATE USER FRONT ====!');
+				location.reload();
 			});
 			return false;
 		});

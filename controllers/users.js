@@ -29,7 +29,7 @@ router.post('/', function(req, res) {
 			res.json(error);
 		} else {
 			User.find({}, function(err, user){
-				res.json(true);
+				res.redirect('/');
 			});
 		}
 	});

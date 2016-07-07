@@ -3,6 +3,7 @@ body{
 	background-color: papayawhip;
 	padding-left: 20em;
 	padding-right: 20em;
+	font-family: "Calibri";
 
 }
 
@@ -12,10 +13,29 @@ ul{
 }
 
 li{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 button{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	margin-top: 1em;
+	height: 2em;
 }
+
+textarea{
+	height: 10em;
+	width: 20em;
+	font-size: 1.3em;
+}
+
+input{
+	height: 3em;
+	width: 15em;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+.user:hover{
+	color: red;
+}
+
