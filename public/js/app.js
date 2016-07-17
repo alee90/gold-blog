@@ -143,7 +143,7 @@ $(document).ready(function(){
 			var date = new Date(y.createdAt);
 			var d = date.toDateString();
 			console.log(d);
-			var $currblog = $("<li class='user-item'>"+y.blog+"</li>");
+			var $currblog = $("<li class='user-blog'>"+y.blog+"</li>");
 			var $dateTime = $("<li class='user-item'>"+d+"</li>");
 			var $deleteButton = $("<button data-attribute=" + y._id + ">" + "DELETE</button>")
 			$deleteButton.click(function(){
@@ -174,7 +174,7 @@ $(document).ready(function(){
 	};
 
 	var createPost = function(){
-		console.log('CREATEPOST');
+		console.log('CREATE POST');
 	    $('postForm').submit(function(e) {
 	    	e.preventDefault();
 			$.ajax({
