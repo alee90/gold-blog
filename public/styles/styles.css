@@ -49,7 +49,10 @@ input{
 	border: 1px solid black;
 	margin-bottom: 3em;
 }
-
+textarea {
+	border: 3px solid black;
+   resize: none;
+}
 .user-blog{
 	background: rgba(255,239,213,0.8);
 	padding: 3em;

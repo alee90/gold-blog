@@ -18,7 +18,7 @@ $(document).ready(function(){
 		var $userInput = $('<input><br>');
 			$userInput.attr('type', 'text');
 			$userInput.attr('name', 'name');
-			$userInput.attr('placeholder', 'ENTER NEW USER!');
+			$userInput.attr('placeholder', 'New Gold Member!');
 			$userInput.attr('id', 'usersub')
 		var $userSubmit = $('<button id="usersubmit">Submit</button>');
 		$userForm.append($userInput);
